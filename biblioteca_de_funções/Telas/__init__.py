@@ -14,7 +14,7 @@ def tela_login(user_login = '',user_senha=''):
     sg.theme('Black')
 
     janela = [
-        [sg.Column([[sg.Image(r'Cadastro_cliente\img\login.png')]],justification='c')],
+        [sg.Column([[sg.Image(r'img\login.png')]],justification='c')],
 
         [sg.Text('Login:', font=font_geral,justification='c', size=(25,0))],
         [sg.Column([[sg.Input(user_login,key='-user-', size=(35,0), justification='c')]], justification='c')],
