@@ -38,5 +38,4 @@ def tela_menu():
     janela = [
         [sg.Column([[sg.Image('')]], justification='c')],
 
-
     ]
